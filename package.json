@@ -2,9 +2,13 @@
     "scripts": {
         "start": "ts-node-dev src/index.ts",
         "build": "tsc",
-        "clean": "rm -rf build"
+        "clean": "rm -rf build",
+        "format": "prettier --write .",
+        "format:check": "prettier --check ."
     },
     "devDependencies": {
+        "husky": "^4.2.5",
+        "prettier": "^2.0.5",
         "ts-node-dev": "^1.0.0-pre.56",
         "typescript": "^3.9.7"
     }
