@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "start": "ts-node-dev src/index.ts",
+        "build": "tsc",
+        "clean": "rm -rf build"
+    },
+    "devDependencies": {
+        "ts-node-dev": "^1.0.0-pre.56",
+        "typescript": "^3.9.7"
+    }
+}
