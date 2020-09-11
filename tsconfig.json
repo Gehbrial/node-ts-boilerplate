@@ -1,14 +1,14 @@
 {
-    "compilerOptions": {
-        "allowSyntheticDefaultImports": false,
-        "alwaysStrict": true,
-        "declaration": true,
-        "declarationMap": true,
-        "forceConsistentCasingInFileNames": true,
-        "keyofStringsOnly": true,
-        "useDefineForClassFields": true,
-        "target": "ES6",
-        "strict": true,
-        "outDir": "build"
-    }
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": false,
+    "alwaysStrict": true,
+    "declaration": true,
+    "declarationMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "keyofStringsOnly": true,
+    "useDefineForClassFields": true,
+    "target": "ES2020",
+    "strict": true,
+    "outDir": "build"
+  }
 }
